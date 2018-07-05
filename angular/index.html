@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="aplicacion">
+    <head>
+     <link rel="stylesheet" href="css/estilos.css">
+     <script src="librerias/angularJS/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+
+
+    
+    </head>
+    <body>  
+         <div class="contenedor">
+             <div class="local">
+                    <label> local</label>
+             </div>
+             <div class="local">
+                    <label>visitante</label>
+             </div>
+         </div>
+     <div ng-controller="PrincipalCtrl">
+
+             
+          
+            <div ng-repeat= " equipo in informacionaMostrar" class="equipo1">
+                    
+        
+                
+                <div  ng-if="$index%2==0" class="equipo2">
+                    <ul><li>{{equipo}}</li> </ul> 
+
+                </div>
+
+                <div  ng-if="$index%2!==0" class="equipo2">
+                        <ul><li>  {{equipo}}</li> </ul>
+    
+                </div>
+            </div>
+
+       <div ng-repeat= " bandera in banderas" class="bandera1">
+                <div  ng-if="$index%2==0" class="bandera2">
+                      <img src="{{bandera}}">
+     
+                 </div>
+     
+                 <div  ng-if="$index%2!==0"class="bandera2">
+                        <img src="{{bandera}}">
+       
+                   </div>
+
+
+        </div>
+        
+
+          
+
+       
+
+    </div>
+
+
+
+            
+
+          
+        
+    
+    </body>
+ 
+    </html>

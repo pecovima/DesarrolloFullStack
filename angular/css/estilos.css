@@ -1,0 +1,49 @@
+.contenedor {
+  width: 765px;
+  height: 50px;
+  background-color: brown;
+}
+
+.equipo1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 880px;
+}
+
+.equipo2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 380px;
+  border: 1px solid #000;
+  float: left;
+  background-color: darkturquoise;
+}
+
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.local {
+  font-family: "ARIAL", serif;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.bandera1 {
+  width: 980px;
+  height: 50px;
+}
+
+.bandera2 {
+  width: 380px;
+  height: 50px;
+  float: left;
+  top: -218px;
+  position: relative;
+  left: 300px;
+}
